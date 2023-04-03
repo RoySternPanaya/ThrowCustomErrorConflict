@@ -5,5 +5,5 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <label>Test</label>
+    <label>Test_Conflict</label>
 </CustomObject>
