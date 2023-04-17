@@ -1,10 +1,5 @@
 name: Check Commit Message
-
-on:
-  push:
-    branches:
-      - main
-
+on: [push]
 jobs:
   check-commit-message:
     runs-on: ubuntu-latest
