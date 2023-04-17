@@ -4,9 +4,6 @@ jobs:
   check-commit-message:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       - name: Check commit message
         run: |
           if git log -1 --pretty=format:%s | grep -q "hello"; then
